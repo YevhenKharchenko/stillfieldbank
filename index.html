@@ -1,0 +1,745 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fill the Piggy Bank Puzzle — Relaxing Coin Stacking Game</title>
+    <meta
+      name="description"
+      content="Fill the Piggy Bank is a relaxing puzzle game where you stack coins, solve clever levels, and watch your piggy bank overflow. Easy to play, satisfying to master."
+    />
+    <link rel="canonical" href="https://stillfieldbank.space/" />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC&family=Squada+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="/stillfieldbank/favicon.png" />
+    
+    <script type="module" crossorigin src="/stillfieldbank/commonHelpers3.js"></script>
+    <link rel="modulepreload" crossorigin href="/stillfieldbank/assets/vendor-0d74985d.js">
+    <link rel="stylesheet" href="/stillfieldbank/assets/vendor-fb046256.css">
+    <link rel="stylesheet" href="/stillfieldbank/assets/styles-45b23774.css">
+  </head>
+  <body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="nav">
+      <a class="header-logo-link" href="./">
+        <picture>
+          <source
+            srcset="/stillfieldbank/assets/header-logo-desk-40d1d817.png "
+            media="(min-width: 1440px)"
+            width="32"
+            height="32" />
+          <source
+            srcset="/stillfieldbank/assets/header-logo-mob-6c328d7c.png "
+            width="24"
+            height="24" />
+          <img
+            class="header-logo-img"
+            src="/stillfieldbank/assets/header-logo-mob-6c328d7c.png"
+            alt="Logo"
+            width="24"
+            height="24" /></picture
+      ></a>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#home">Home</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#about"
+            >Idea Behind the Game</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#works">How It Works</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#gameplay"
+            >Gameplay Feel</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#progression"
+            >Level Progression</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#features">Features</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#advantages"
+            >Why Players Stay</a
+          >
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#info">Game Info</a>
+        </li>
+        <li class="nav-list-item">
+          <a class="nav-list-link" href="./index.html#cta">Start Now</a>
+        </li>
+      </ul>
+      <button class="nav-btn" type="button" aria-label="Open mobile menu">
+        <svg class="menu-icon" width="24" height="24">
+          <use href="/stillfieldbank/assets/sprite-b552b342.svg#icon-menu"></use>
+        </svg>
+      </button>
+      <button class="close-btn" type="button" aria-label="Close mobile menu">
+        <svg class="close-icon" width="24" height="24">
+          <use href="/stillfieldbank/assets/sprite-b552b342.svg#icon-close"></use>
+        </svg>
+      </button>
+    </nav>
+  </div>
+</header>
+
+    <main>
+      <section class="section hero-section" id="home">
+  <div class="hero-bg-wrapper">
+    <div class="container hero-container">
+      <div class="hero-content-wrapper">
+        <div class="hero-text-wrapper">
+          <h1 class="hero-main-title">
+            Fill the Piggy Bank<br />
+            One Coin at a Time
+          </h1>
+          <p class="hero-subtitle">
+            Stack, plan, and watch your piggy bank overflow
+          </p>
+          <p class="hero-text">
+            There’s something quietly satisfying about placing the last coin
+            exactly where it belongs. We turned that into Fill the Piggy Bank -
+            it's a puzzle game where every little move actually matters way more
+            than you'd think.<br class="hero-text-br" />
+            At first, it feels simple. A few coins. A few slots. But then the
+            space tightens, the sequence matters, and every move becomes part of
+            a bigger solution.
+          </p>
+          <a
+            class="hero-btn"
+            target="_blank"
+            href="https://play.google.com/store/apps/details?id=com.GamerGage.FillthePiggyBank&hl=en&gl=us"
+            rel="noopener noreferrer"
+            aria-label="Download on Google Play"
+            ><svg class="playstore-icon" width="195" height="44">
+              <use href="/stillfieldbank/assets/sprite-b552b342.svg#icon-playstore"></use></svg
+          ></a>
+          <p class="hero-bottom-text">
+            Version 0.1.3 · Updated Nov 22, 2025 · Android 5.1+ · 100+ downloads
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section about-section" id="about">
+  <div class="section-title-wrapper about-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title about-title">Idea Behind the Game</h2>
+    </div>
+  </div>
+  <div class="about-bg-wrapper">
+    <div class="container about-container">
+      <div class="about-content-wrapper">
+        <p class="section-subtitle about-subtitle">
+          A Puzzle Built on Simple Satisfaction
+        </p>
+        <p class="about-text">
+          Fill the Piggy Bank started with a simple thought: what if organizing
+          coins could feel like solving something meaningful?<br />
+          It's not one of those crazy, fast-paced games. Just you, some coins,
+          and figuring out where they go.<br class="about-text-br" />
+          We kept it simple - no bells and whistles, just the satisfying
+          challenge of making everything fit.<br class="about-text-br" />
+          Each level is like a little puzzle where you've got to think it
+          through but also trust your gut. You’re not just placing coins, you’re
+          shaping a solution.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="works-section section" id="works">
+  <div class="section-title-wrapper benefits-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title works-title">How It Works</h2>
+    </div>
+  </div>
+  <div class="works-bg-wrapper">
+    <div class="container works-container">
+      <p class="section-subtitle works-subtitle">
+        Easy to Start, Subtle to Master
+      </p>
+      <div class="works-swiper-container">
+        <ul class="swiper-wrapper works-swiper-wrapper">
+          <li class="swiper-slide works-slide">
+            <img
+              class="works-item-img"
+              src="/stillfieldbank/assets/works-img1-mob-df74dd52.png"
+              alt="Screenshot of the game"
+              width="200"
+              height="200"
+              loading="lazy"
+            />
+            <h3 class="works-item-title">Drag and Place</h3>
+            <p class="works-item-text">
+              Move coins into position using simple tap and drag controls.
+            </p>
+          </li>
+          <li class="swiper-slide works-slide">
+            <img
+              class="works-item-img"
+              src="/stillfieldbank/assets/works-img2-mob-4617358f.png"
+              alt="Screenshot of the game"
+              width="200"
+              height="200"
+              loading="lazy"
+            />
+            <h3 class="works-item-title">Think Ahead</h3>
+            <p class="works-item-text">
+              Not every coin fits everywhere. Order matters.
+            </p>
+          </li>
+          <li class="swiper-slide works-slide">
+            <img
+              class="works-item-img"
+              src="/stillfieldbank/assets/works-img3-mob-99b8e0da.png"
+              alt="Screenshot of the game"
+              width="200"
+              height="200"
+              loading="lazy"
+            />
+            <h3 class="works-item-title">Fill the Space</h3>
+            <p class="works-item-text">
+              Use every slot efficiently to complete the piggy bank.
+            </p>
+          </li>
+          <li class="swiper-slide works-slide">
+            <img
+              class="works-item-img"
+              src="/stillfieldbank/assets/works-img4-mob-4e722ff2.png"
+              alt="Screenshot of the game"
+              width="200"
+              height="200"
+              loading="lazy"
+            />
+            <h3 class="works-item-title">Solve the Puzzle</h3>
+            <p class="works-item-text">
+              When everything fits — the level clicks into place.
+            </p>
+          </li>
+        </ul>
+        <p class="works-text">
+          There’s always a solution.<br class="works-text-br" />
+          The challenge is seeing it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section gameplay-section" id="gameplay">
+  <div class="section-title-wrapper gameplay-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title gameplay-title">Gameplay Feel</h2>
+    </div>
+  </div>
+  <div class="gameplay-bg-wrapper">
+    <div class="container gameplay-container">
+      <div class="gameplay-content-wrapper">
+        <div class="gameplay-text-wrapper">
+          <p class="section-subtitle gameplay-subtitle">
+            Calm, Focused, Surprisingly Addictive
+          </p>
+          <p class="gameplay-text">
+            This isn’t a loud puzzle game. It doesn’t rush you. Instead, it
+            builds tension in a quieter way — through limited space, careful
+            placement, and the slow realization that one wrong move can block
+            everything. And then, when it works — when everything aligns — it
+            feels right.<br />
+            It's weirdly addictive - stressful enough to keep you engaged but
+            chill enough that you don't want to throw your phone.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/stillfieldbank/assets/gameplay-img-desk-45cd2497.jpg "
+            media="(min-width: 1440px)"
+            width="1440"
+            height="807" />
+          <source
+            srcset="/stillfieldbank/assets/gameplay-img-mob-6305102b.jpg "
+            width="375"
+            height="313" />
+          <img
+            class="gameplay-img"
+            src="/stillfieldbank/assets/gameplay-img-mob-6305102b.jpg"
+            alt="Screenshot of the game"
+            width="375"
+            height="313"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section progression-section" id="progression">
+  <div class="section-title-wrapper progression-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title progression-title">Level Progression</h2>
+    </div>
+  </div>
+  <div class="progression-bg-wrapper">
+    <div class="container progression-container">
+      <p class="section-subtitle">Small Boards, Big Decisions</p>
+      <p class="progression-text">
+        Levels begin with simple layouts that help you understand the rules. But
+        very quickly, the game starts to shift.<br
+          class="progression-text-br"
+        />
+        More coins. Less space. Unexpected shapes. Tricky sequences.<br />
+        You'll start seeing patterns, then realize they don't always work, then
+        find even better ways to solve things.<br class="progression-text-br" />
+        Every new level asks a slightly different question.
+      </p>
+      <div class="progression-content-wrapper">
+        <img
+          class="progression-img-desk"
+          src="/stillfieldbank/assets/progression-img2-desk-19c3ce4c.png"
+          alt="Screenshot of the game"
+          width="196"
+          height="348"
+          loading="lazy"
+        />
+        <ul class="progression-list">
+          <li class="progression-list-item">
+            <div class="progression-item-circle"></div>
+            <p class="progression-item-text">Smart level variety</p>
+          </li>
+          <li class="progression-list-item">
+            <div class="progression-item-circle"></div>
+            <p class="progression-item-text">Compact puzzle design</p>
+          </li>
+          <li class="progression-list-item">
+            <div class="progression-item-circle"></div>
+            <p class="progression-item-text">Gradually increasing difficulty</p>
+          </li>
+          <li class="progression-list-item">
+            <div class="progression-item-circle"></div>
+            <p class="progression-item-text">Short but meaningful sessions</p>
+          </li>
+        </ul>
+        <picture>
+          <source
+            srcset="/stillfieldbank/assets/progression-img1-desk-dd2be834.png "
+            media="(min-width: 1440px)"
+            width="196"
+            height="348" />
+          <source
+            srcset="/stillfieldbank/assets/progression-img1-mob-cba62291.png "
+            width="327"
+            height="388" />
+          <img
+            class="progression-img"
+            src="/stillfieldbank/assets/progression-img1-mob-cba62291.png"
+            alt="Screenshot of the game"
+            width="327"
+            height="388"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="features-section section" id="features">
+  <div class="section-title-wrapper benefits-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title features-title">Features</h2>
+    </div>
+  </div>
+  <div class="features-bg-wrapper">
+    <div class="container features-container">
+      <p class="section-subtitle">What Makes It Work</p>
+      <ul class="features-list">
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/stillfieldbank/assets/features-img1-desk-7093c836.png "
+              media="(min-width: 1440px)"
+              width="140"
+              height="140" />
+            <source
+              srcset="/stillfieldbank/assets/features-img1-mob-143b0f1c.png "
+              width="80"
+              height="80" />
+            <img
+              class="features-item-img"
+              src="/stillfieldbank/assets/features-img1-mob-143b0f1c.png"
+              alt="Screenshot of the game"
+              width="80"
+              height="80"
+              loading="lazy"
+          /></picture>
+          <div class="features-item-text-wrapper">
+            <h3 class="features-item-title">Clean Mechanics</h3>
+            <p class="features-item-text">
+              No unnecessary complexity — just stacking and solving.
+            </p>
+          </div>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/stillfieldbank/assets/features-img2-desk-1cd74468.png "
+              media="(min-width: 1440px)"
+              width="140"
+              height="140" />
+            <source
+              srcset="data:image/png;base64,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 "
+              width="80"
+              height="80" />
+            <img
+              class="features-item-img"
+              src="data:image/png;base64,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"
+              alt="Screenshot of the game"
+              width="80"
+              height="80"
+              loading="lazy"
+          /></picture>
+          <div class="features-item-text-wrapper">
+            <h3 class="features-item-title">Responsive Controls</h3>
+            <p class="features-item-text">
+              Smooth drag-and-drop interactions that feel natural.
+            </p>
+          </div>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/stillfieldbank/assets/features-img3-desk-55a2cf4c.png "
+              media="(min-width: 1440px)"
+              width="140"
+              height="140" />
+            <source
+              srcset="data:image/png;base64,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 "
+              width="80"
+              height="80" />
+            <img
+              class="features-item-img"
+              src="data:image/png;base64,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"
+              alt="Screenshot of the game"
+              width="80"
+              height="80"
+              loading="lazy"
+          /></picture>
+          <div class="features-item-text-wrapper">
+            <h3 class="features-item-title">Visual Clarity</h3>
+            <p class="features-item-text">
+              Bright coins, soft backgrounds, and readable layouts.
+            </p>
+          </div>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/stillfieldbank/assets/features-img4-desk-e3e47f73.png "
+              media="(min-width: 1440px)"
+              width="140"
+              height="140" />
+            <source
+              srcset="/stillfieldbank/assets/features-img4-mob-bd91de29.png "
+              width="80"
+              height="80" />
+            <img
+              class="features-item-img"
+              src="/stillfieldbank/assets/features-img4-mob-bd91de29.png"
+              alt="Screenshot of the game"
+              width="80"
+              height="80"
+              loading="lazy"
+          /></picture>
+          <div class="features-item-text-wrapper">
+            <h3 class="features-item-title">Satisfying Feedback</h3>
+            <p class="features-item-text">
+              Every correct placement feels intentional and rewarding.
+            </p>
+          </div>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/stillfieldbank/assets/features-img5-desk-2c7ac8bc.png "
+              media="(min-width: 1440px)"
+              width="140"
+              height="140" />
+            <source
+              srcset="data:image/png;base64,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 "
+              width="80"
+              height="80" />
+            <img
+              class="features-item-img"
+              src="data:image/png;base64,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"
+              alt="Screenshot of the game"
+              width="80"
+              height="80"
+              loading="lazy"
+          /></picture>
+          <div class="features-item-text-wrapper">
+            <h3 class="features-item-title">Quick Play Sessions</h3>
+            <p class="features-item-text">
+              Perfect for short breaks without losing depth.
+            </p>
+          </div>
+        </li>
+        <li class="features-list-item">
+          <picture>
+            <source
+              srcset="/stillfieldbank/assets/features-img6-desk-0a861635.png "
+              media="(min-width: 1440px)"
+              width="140"
+              height="140" />
+            <source
+              srcset="/stillfieldbank/assets/features-img6-mob-bee7e8a8.png "
+              width="80"
+              height="80" />
+            <img
+              class="features-item-img"
+              src="/stillfieldbank/assets/features-img6-mob-bee7e8a8.png"
+              alt="Screenshot of the game"
+              width="80"
+              height="80"
+              loading="lazy"
+          /></picture>
+          <div class="features-item-text-wrapper">
+            <h3 class="features-item-title">Offline Ready</h3>
+            <p class="features-item-text">
+              Play anywhere, anytime. No internet connection needed.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="section advantages-section" id="advantages">
+  <div class="section-title-wrapper advantages-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title advantages-title">Why Players Stay</h2>
+    </div>
+  </div>
+  <div class="advantages-bg-wrapper">
+    <div class="container advantages-container">
+      <div class="advantages-content-wrapper">
+        <div class="advantages-text-wrapper">
+          <p class="section-subtitle advantages-subtitle">
+            It’s Not Just About Coins
+          </p>
+          <p class="advantages-text">
+            I thought this'd be just another time-killer, but honestly? It kinda
+            hooks you.<br />
+            You begin to notice patterns faster. You rethink your first
+            instinct. You pause before placing the next piece.<br
+              class="advantages-text-br"
+            />
+            The game creates a rhythm — observe, try, adjust, solve. And once
+            you get into that rhythm, it’s hard to stop.
+          </p>
+        </div>
+        <picture>
+          <source
+            srcset="/stillfieldbank/assets/advantages-img-desk-efdcf07d.jpg "
+            media="(min-width: 1440px)"
+            width="1440"
+            height="534" />
+          <source
+            srcset="/stillfieldbank/assets/advantages-img-mob-c71cff49.jpg "
+            width="375"
+            height="198" />
+          <img
+            class="advantages-img"
+            src="/stillfieldbank/assets/advantages-img-mob-c71cff49.jpg"
+            alt="Screenshot of the game"
+            width="375"
+            height="198"
+            loading="lazy"
+        /></picture>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section info-section" id="info">
+  <div class="section-title-wrapper info-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title info-title">Game Info</h2>
+    </div>
+  </div>
+  <div class="info-bg-wrapper">
+    <div class="container info-container">
+      <p class="section-subtitle">Game Details</p>
+      <p class="info-text">
+        Designed as a lightweight, relaxing puzzle experience with a focus on
+        clarity and satisfaction.
+      </p>
+      <div class="info-content-wrapper">
+        <div class="info-img-wrapper">
+          <picture>
+            <source
+              srcset="/stillfieldbank/assets/info-img-desk-825714e8.png "
+              media="(min-width: 1440px)"
+              width="116"
+              height="116" />
+            <source
+              srcset="/stillfieldbank/assets/info-img-mob-8955b340.png "
+              width="146"
+              height="127" />
+            <img
+              class="info-img"
+              src="/stillfieldbank/assets/info-img-mob-8955b340.png"
+              alt="Screenshot of the game"
+              width="146"
+              height="127"
+              loading="lazy"
+          /></picture>
+        </div>
+        <p class="info-top-text">
+          Game Name: Fill the Piggy Bank Puzzle<br />
+          Version: 0.1.3<br />
+          Updated: Nov 22, 2025
+        </p>
+        <p class="info-bottom-text">
+          Android Requirement: 5.1 and up<br />
+          Release: 2025<br />
+          Downloads: 100+
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section class="section cta-section" id="cta">
+  <div class="section-title-wrapper cta-title-wrapper">
+    <div class="container section-title-container">
+      <h2 class="section-title cta-title">Play now</h2>
+    </div>
+  </div>
+  <div class="cta-bg-wrapper">
+    <div class="container cta-container">
+      <div class="cta-content-wrapper">
+        <p class="section-subtitle cta-subtitle">Start With One Coin</p>
+        <p class="cta-text">
+          You don’t need a long tutorial.<br class="cta-text-br" />
+          You don’t need hours of time.<br />
+          Just one level. One move. One decision.<br class="cta-text-br" />
+          And suddenly, you’re already thinking about the next one.
+        </p>
+        <a
+          class="hero-btn cta-btn"
+          target="_blank"
+          href="https://play.google.com/store/apps/details?id=com.GamerGage.FillthePiggyBank&hl=en&gl=us"
+          rel="noopener noreferrer"
+          aria-label="Download on Google Play"
+          ><svg class="playstore-icon" width="195" height="44">
+            <use href="/stillfieldbank/assets/sprite-b552b342.svg#icon-playstore"></use></svg
+        ></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+    <footer class="footer" id="footer">
+  <div class="footer-bg-wrapper">
+    <div class="container footer-container">
+      <div class="footer-content-wrapper">
+        <p class="footer-top-text">Fill the Piggy Bank</p>
+        <nav class="footer-nav">
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a class="footer-link" href="./privacy-policy.html"
+                >Privacy Policy</a
+              >
+            </li>
+            <li class="footer-list-item">
+              <a class="footer-link" href="./terms-and-conditions.html"
+                >Terms & Conditions</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <p class="footer-text">
+          © 2026 fieldvalleybank.online<span class="footer-text-span"> — </span
+          ><br class="footer-text-br" />
+          All rights reserved
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="context-menu">
+  <nav class="context-nav">
+    <ul class="context-nav-list">
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#home">Home</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#about"
+          >Idea Behind the Game</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#works">How It Works</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#gameplay"
+          >Gameplay Feel</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#progression"
+          >Level Progression</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#features">Features</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#advantages"
+          >Why Players Stay</a
+        >
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#info">Game Info</a>
+      </li>
+      <li class="context-list-item">
+        <a class="context-list-link" href="./index.html#cta">Start Now</a>
+      </li>
+    </ul>
+    <ul class="context-privacy-list">
+      <li class="context-privacy-item">
+        <a class="context-privacy-link" href="./privacy-policy.html"
+          >Privacy Policy</a
+        >
+      </li>
+      <li class="context-privacy-item">
+        <a class="context-privacy-link" href="./terms-and-conditions.html"
+          >Terms & Conditions</a
+        >
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+    
+  </body>
+</html>
