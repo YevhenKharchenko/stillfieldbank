@@ -1,13 +1,12 @@
-.gameplay-section {
-  background: #d1e3ee;
+.advantages-section {
 }
 
-.gameplay-bg-wrapper {
+.advantages-bg-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-bg-wrapper {
+.advantages-bg-wrapper {
   padding-top: 48px;
 
   @include media(desktop) {
@@ -15,29 +14,29 @@
   }
 }
 
-.gameplay-container {
+.advantages-container {
   padding: 0;
 
   @include media(desktop) {
   }
 }
 
-.gameplay-title-wrapper {
+.advantages-title-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-title {
+.advantages-title {
   @include media(desktop) {
   }
 }
 
-.gameplay-content-wrapper {
+.advantages-content-wrapper {
   @include media(desktop) {
   }
 }
 
-.gameplay-text-wrapper {
+.advantages-text-wrapper {
   padding: 0 16px;
   margin-bottom: 32px;
 
@@ -47,12 +46,12 @@
   }
 }
 
-.gameplay-subtitle {
+.advantages-subtitle {
   @include media(desktop) {
   }
 }
 
-.gameplay-text {
+.advantages-text {
   font-family: 'Chiron GoRound TC', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -64,7 +63,15 @@
   }
 }
 
-.gameplay-img {
+.advantages-text-br {
+  display: none;
+
+  @include media(desktop) {
+    display: block;
+  }
+}
+
+.advantages-img {
   margin-left: auto;
   margin-right: auto;
 

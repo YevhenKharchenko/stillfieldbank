@@ -51,6 +51,7 @@ html {
 }
 
 .section-title-wrapper {
+  background: #5f7b88;
   padding-top: 64px;
   padding-bottom: 16px;
 
@@ -60,6 +61,18 @@ html {
 }
 
 .section-title {
+  font-family: 'Chiron GoRound TC', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.2;
+  text-align: center;
+  color: #eef5f7;
+
+  @include media(desktop) {
+  }
+}
+
+.section-subtitle {
   font-family: 'Squada One', sans-serif;
   font-weight: 400;
   font-size: 28px;

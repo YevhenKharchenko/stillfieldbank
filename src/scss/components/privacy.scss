@@ -1,5 +1,5 @@
 .policy-section {
-  background: #3e507a;
+  background: #eef5f7;
   padding-top: 104px;
   padding-bottom: 40px;
 
@@ -10,13 +10,13 @@
 }
 
 .policy-main-title {
-  font-family: 'Titan One', sans-serif;
+  font-family: 'Squada One', sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1;
   text-transform: uppercase;
   text-align: center;
-  color: #f1fdff;
+  color: #343945;
   margin-bottom: 40px;
 
   @include media(desktop) {
@@ -26,11 +26,11 @@
 }
 
 .policy-title {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Chiron GoRound TC', sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.4;
-  color: #f1fdff;
+  line-height: 1.5;
+  color: #343945;
   margin-bottom: 16px;
 
   @include media(desktop) {
@@ -38,11 +38,11 @@
 }
 
 .policy-text {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Chiron GoRound TC', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.4;
-  color: #f1fdff;
+  line-height: 1.5;
+  color: #343945;
 
   &:not(:last-child) {
     margin-bottom: 16px;
@@ -58,11 +58,11 @@
 }
 
 .policy-item {
-  font-family: 'Manrope', sans-serif;
+  font-family: 'Chiron GoRound TC', sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.4;
-  color: #f1fdff;
+  line-height: 1.5;
+  color: #343945;
   margin-bottom: 8px;
 
   &:last-child {
